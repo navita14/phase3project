@@ -45,5 +45,5 @@ while True:
 
     # Check for a golden cross
     if has_golden_cross(data, fast_period, slow_period):
-        print("Golden Cross detected. Plaing buy order.")
+        print("Golden Cross detected. Placing buy order.")
         place_buy_order(symbol, qty) 
